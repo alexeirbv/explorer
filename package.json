@@ -1,9 +1,9 @@
 {
-  "name": "EthereumClassicExplorer",
+  "name": "EthereumExplorer",
   "private": false,
   "version": "0.2.0",
-  "description": "A lightweight ethereum classic block explorer",
-  "repository": "https://github.com/ethereumproject/explorer",
+  "description": "A lightweight ethereum block explorer",
+  "repository": "https://github.com/alexeirbv/explorer",
   "license": "MIT",
   "scripts": {
     "start": "concurrently \"node tools/sync.js \" \"node app.js\" ",
