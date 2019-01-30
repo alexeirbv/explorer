@@ -15,7 +15,7 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+    <div class="col-lg-3 col-md-2 col-sm-6 col-xs-12">
         <div class="dashboard-stat2 ">
             <div class="display">
                 <div class="icon">
@@ -30,34 +30,48 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="dashboard-stat2 ">
-            <div class="display">
-                <div class="icon">
-                    <i class="fa fa-tachometer"></i>
-                </div>
-                <div class="number">
-                    <h3>
-                        <span data-counter="counterup" data-value="stats.hashrate">{{stats.hashrate | totalDifficulty}}/s</span>
-                    </h3>
-                    <small>Network Hashrate</small>
-                </div>
-            </div>
-        </div>
+
+    <div class="col-lg-2 col-md-2 col-sm-6 col-xs-12" style="margin-left: 100px;">
+      <!-- BANNERS -->
+
+      <a id="banner_img_link" href="https://click.brprft.com/click?pid=20&amp;offer_id=22&amp;sub2=etcblockexplorer.com">
+        <img id="banner_rotate" onLoad="getRandomBundle();" style="display: block;" src="img/banners/tr02.gif">
+      </a>
+      <img id="pixel_link" src="https://wraprevenue.imp2aff.com/imp?aid=20&amp;oid=22&amp;sub1=etcblockexplorer.com" height="1" width="1">
+
+      <!-- END BANNERS -->
     </div>
-    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-        <div class="dashboard-stat2 ">
-            <div class="display">
-                <div class="icon">
-                    <i class="icon-puzzle"></i>
-                </div>
-                <div class="number">
-                    <h3>
-                        <span data-counter="counterup" data-value="stats.difficulty">{{stats.difficulty | totalDifficulty}}</span>
-                    </h3>
-                    <small>DIFFICULTY</small>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
+  </div>
+
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="dashboard-stat2 ">
+                  <div class="display">
+                      <div class="icon">
+                          <i class="fa fa-tachometer"></i>
+                      </div>
+                      <div class="number">
+                          <h3>
+                              <span data-counter="counterup" data-value="stats.hashrate">{{stats.hashrate | totalDifficulty}}/s</span>
+                          </h3>
+                          <small>Network Hashrate</small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+              <div class="dashboard-stat2 ">
+                  <div class="display">
+                      <div class="icon">
+                          <i class="icon-puzzle"></i>
+                      </div>
+                      <div class="number">
+                          <h3>
+                              <span data-counter="counterup" data-value="stats.difficulty">{{stats.difficulty | totalDifficulty}}</span>
+                          </h3>
+                          <small>DIFFICULTY</small>
+                      </div>
+                  </div>
+              </div>
+          </div>
+<div style="clear: both"></div>
