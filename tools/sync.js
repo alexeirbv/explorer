@@ -141,6 +141,7 @@ var writeTransactionsToDB = function(config, blockData, flush) {
     for (d in blockData.transactions) {
       var txData = blockData.transactions[d];
       txData.timestamp = blockData.timestamp;
+      txData.isError = status === 1 ? '1' : '0';
       txData.value = etherUnits.toEther(new BigNumber(txData.value), 'wei');
       self.bulkOps.push(txData);
     }
