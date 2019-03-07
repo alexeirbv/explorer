@@ -16,7 +16,7 @@ function filterTX(txs, value) {
       etherUnits.toEther(new BigNumber(tx.value), 'ether'), //4
       tx.gas, //5
       tx.timestamp, //6
-      tx.input //7
+      tx.input, //7
       tx.isError //8
     ]
   })
